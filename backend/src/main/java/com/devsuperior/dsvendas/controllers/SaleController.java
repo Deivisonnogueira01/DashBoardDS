@@ -30,7 +30,7 @@ public class SaleController {
 	
 	@GetMapping(value = "/amount-by-seller")
 	public ResponseEntity<List<SaleSumDTO>> amountGroupedBySeller() {
-		List<SaleDTO> list = service.amountGroupedBySeller();
+		List<SaleSumDTO> list = service.amountGroupedBySeller();
 		return ResponseEntity.ok(list);
 	}
 	@GetMapping(value = "/sucess-by-seller")
