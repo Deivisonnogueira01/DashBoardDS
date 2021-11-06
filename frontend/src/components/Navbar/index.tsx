@@ -13,6 +13,8 @@ const Navbar = () => {
             </div>
         </div>
     )
+    
+
 }
 
 /* shift + alt + f  para identar */
